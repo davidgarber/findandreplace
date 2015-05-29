@@ -9,6 +9,8 @@ string and replace it with another word.
 <h2>Setup instructions:</h2>.
 Mocha spec framework: download ZIP, copy mocha.js and mocha.css into spec folder.
 Chai assertion library: Download, Browser, Download chai.js into spec folder.
+jQuery Download: Download uncompressed, development jQuery 1.11.3, copy into
+js folder.
 
 
 <h2>Copyright</h2>

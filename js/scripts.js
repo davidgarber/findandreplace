@@ -1,6 +1,9 @@
 var findAndReplace = function(stringSearch, wordContain, wordReplace){
+
+  if (stringSearch.toLowerCase().includes(wordContain)) {
   stringSearch = stringSearch.toLowerCase().replace(wordContain, wordReplace);
-  return stringSearch;
+  return stringSearch; } else
+  {return "does not exist";}
 };
 
 $(document).ready(function() {

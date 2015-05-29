@@ -8,12 +8,7 @@ $(document).ready(function() {
     var string = $("input#string").val();
     var contain = $("input#contain").val();
     var replace = $("input#replace").val();
-    var result = findAndReplace(contain, replace);
-
-    $("#contain").text(contain);
-    if (!contain) {
-      $(".not").text("not");
-    }
+    var result = findAndReplace(string, contain, replace);
 
     $("result-wrapper").show();
     $("#result").text(result);
